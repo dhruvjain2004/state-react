@@ -1,11 +1,13 @@
 import './App.css'
 import Counter from './Counter'
 import LikeButton from './LikeButton'
-
+import Form from './Form'
 function App() {
   return (
     <>
-      <h1>LIKE HERE</h1>
+      <Counter/>
+      <br />
+      <Form/>
       <LikeButton/>
     </>
   )
