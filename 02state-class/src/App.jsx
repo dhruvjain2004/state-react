@@ -1,15 +1,14 @@
-import React from'react'
+/*import React from'react'
 import './App.css'
-import LudoBoard from './LudoBoard'
-
+import LudoBoard from './LudoBoard'*/
+import ToDoList from './ToDoList'
 
 function App() {
 
 
   return (
     <>
-      <h1>Vite + React</h1>
-      <LudoBoard />
+      <ToDoList/>
     </>
   )
 }
